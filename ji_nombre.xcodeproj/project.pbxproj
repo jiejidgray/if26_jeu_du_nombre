@@ -12,6 +12,8 @@
 		6874EB7821A3645300173022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6874EB7621A3645300173022 /* Main.storyboard */; };
 		6874EB7A21A3645300173022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6874EB7921A3645300173022 /* Assets.xcassets */; };
 		6874EB7D21A3645300173022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6874EB7B21A3645300173022 /* LaunchScreen.storyboard */; };
+		6874EB8521A3690A00173022 /* JeuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874EB8421A3690A00173022 /* JeuViewController.swift */; };
+		6874EB8721A3693000173022 /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874EB8621A3693000173022 /* LastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6874EB7921A3645300173022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6874EB7C21A3645300173022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6874EB7E21A3645300173022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6874EB8421A3690A00173022 /* JeuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeuViewController.swift; sourceTree = "<group>"; };
+		6874EB8621A3693000173022 /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				6874EB7921A3645300173022 /* Assets.xcassets */,
 				6874EB7B21A3645300173022 /* LaunchScreen.storyboard */,
 				6874EB7E21A3645300173022 /* Info.plist */,
+				6874EB8421A3690A00173022 /* JeuViewController.swift */,
+				6874EB8621A3693000173022 /* LastViewController.swift */,
 			);
 			path = ji_nombre;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				6874EB7521A3645300173022 /* ViewController.swift in Sources */,
 				6874EB7321A3645300173022 /* AppDelegate.swift in Sources */,
+				6874EB8721A3693000173022 /* LastViewController.swift in Sources */,
+				6874EB8521A3690A00173022 /* JeuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
