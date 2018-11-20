@@ -11,11 +11,16 @@ import UIKit
 class LastViewController: UIViewController {
 
     @IBOutlet weak var coupLabel: UILabel!
-     var valC : Int = 0
+
+    @IBOutlet weak var rejouer: UIButton!
+    
+    @IBOutlet weak var text: UILabel!
+    
+    var coup : Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        coupLabel.text! = String(valC)
+        coupLabel.text! = String(self.coup)
         // Do any additional setup after loading the view.
     }
     

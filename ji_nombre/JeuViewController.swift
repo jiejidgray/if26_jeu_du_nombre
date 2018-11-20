@@ -59,10 +59,11 @@ class JeuViewController: UIViewController {
             } else if nombre == self.nombreHasard{
                 self.compteur += 1
             
-                let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                /*let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
 
                 let lastViewController = storyboard.instantiateViewController(withIdentifier: "lastView") as! LastViewController
-                self.present(lastViewController, animated:true, completion:nil)
+                self.present(lastViewController, animated:true, completion:nil)*/
+                self.performSegue(withIdentifier: "lastView", sender: self)
             }
             
         
@@ -77,9 +78,12 @@ class JeuViewController: UIViewController {
     }
     */
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-        let destination: LastViewController = segue.destination as! LastViewController
-        print(self.compteur)
-
-        destination.valC = self.compteur
+        if segue.identifier == "lastView" {
+            if let secondView = segue.destination as? LastViewController {
+                print(self.compteur)
+                secondView.coup = self.compteur
+            }
+        }
+     
     }
 }
